@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ItsDiabetes.com</title>
+ <link href="https://itsdiabetes.com/atom.xml" rel="self"/>
+ <link href="https://itsdiabetes.com/"/>
+ <updated>2021-10-23T00:52:29+00:00</updated>
+ <id>https://itsdiabetes.com</id>
+ <author>
+   <name>ItsDiabetes.com</name>
+   <email>author@itsdiabetes.com</email>
+ </author>
+
+ 
+	
+	 <entry>
+	   <title>Humalog Discount Program (US$35/mo)</title>
+	   <link href="https://itsdiabetes.com/2021/10/21/lilly-humalog-discount"/>
+	   <updated>2021-10-21T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/10/21/Lilly-Humalog-Discount</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Weekly Glucose Report</title>
+	   <link href="https://itsdiabetes.com/2021/10/17/report"/>
+	   <updated>2021-10-17T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/10/17/report</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Weekly Glucose Report</title>
+	   <link href="https://itsdiabetes.com/2021/10/10/report"/>
+	   <updated>2021-10-10T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/10/10/report</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Weekly Glucose Report</title>
+	   <link href="https://itsdiabetes.com/2021/10/03/report"/>
+	   <updated>2021-10-03T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/10/03/report</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Weekly Glucose Report</title>
+	   <link href="https://itsdiabetes.com/2021/09/26/report"/>
+	   <updated>2021-09-26T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/09/26/report</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Insulin Pump Comparison Chart</title>
+	   <link href="https://itsdiabetes.com/2020/11/25/insulin-pump-comparison"/>
+	   <updated>2020-11-25T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2020/11/25/insulin-pump-comparison</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Insulin Comparison Chart</title>
+	   <link href="https://itsdiabetes.com/2020/11/25/insulin-comparison"/>
+	   <updated>2020-11-25T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2020/11/25/insulin-comparison</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Blood Glucose Meter Comparison Chart</title>
+	   <link href="https://itsdiabetes.com/2020/11/25/bgm-comparison"/>
+	   <updated>2020-11-25T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2020/11/25/bgm-comparison</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+ 
+</feed>
