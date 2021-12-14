@@ -4,12 +4,34 @@
  <title>ItsDiabetes.com</title>
  <link href="https://itsdiabetes.com/atom.xml" rel="self"/>
  <link href="https://itsdiabetes.com/"/>
- <updated>2021-11-30T05:56:43+00:00</updated>
+ <updated>2021-12-14T04:27:08+00:00</updated>
  <id>https://itsdiabetes.com</id>
  <author>
    <name>ItsDiabetes.com</name>
  </author>
 
+ 
+	
+	 <entry>
+	   <title>Weekly Glucose Report</title>
+	   <link href="https://itsdiabetes.com/2021/12/12/report"/>
+	   <updated>2021-12-12T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/12/12/report</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
+ 
+	
+	 <entry>
+	   <title>Weekly Glucose Report</title>
+	   <link href="https://itsdiabetes.com/2021/12/05/report"/>
+	   <updated>2021-12-05T00:00:00+00:00</updated>
+	   <id>https://itsdiabetes.com/2021/12/05/report</id>
+	   <content type="html">
+</content>
+	 </entry>
+	
  
 	
 	 <entry>
