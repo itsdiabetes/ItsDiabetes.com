@@ -1,0 +1,52 @@
+---
+layout: default
+title: "Costs"
+permalink: /report/costs
+---
+
+<h1>Costs</h1>
+<p><a href="/">« homepage</a></p>
+<hr>
+<p>
+</p>
+<div class="deskContent">
+  <table>
+    {% for row in site.data.costs %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+      <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+    {{ pair[1] }}
+    {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+
+<div class="phoneContent mobile">
+  <table>
+    {% for row in site.data.costs %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+      <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+    {{ pair[1] }}
+    {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<hr>
+<p><a href="/">« homepage</a></p>
+<p class="mobile footer-last-updated">Last updated: {{ site.time | date: "%Y %B %-d @ %-I:%M %P" }}</p>
+
+
+

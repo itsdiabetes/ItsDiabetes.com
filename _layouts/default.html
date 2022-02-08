@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  {% if page.layout == "default" %}
+  <main>
+  {{ content }}
+  </main>
+  {% else %}
+  {{ content }}
+  {% endif %}
+  
+  {% if site.bootstrap %}<!-- Bootstrap JS Bundle v5.1.3, GetBootstrap.com -->
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  {%- endif -%}
+  {% if site.customJS %}
+  <!-- Custom JS -->
+  <script src="/assets/js/custom.js"></script>{% endif %}
+</body>
+</html>

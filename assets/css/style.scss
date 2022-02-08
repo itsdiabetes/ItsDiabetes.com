@@ -1,0 +1,95 @@
+---
+---
+
+body {
+  background-color: #e1eff2;
+  font-size: 200%;
+}
+
+.mobile {
+  font-size: 50%;
+}
+
+@media all and (min-width: 480px) {
+  .deskContent {display:block;}
+  .phoneContent {display:none;}
+}
+
+@media all and (max-width: 479px) {
+  .deskContent {display:none;}
+  .phoneContent {display:block;}
+}
+
+main {
+  display: flex;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2.4rem 2rem;
+  flex-direction: column;
+  h1 {
+    font-size: 1.6em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+  }
+  p {
+    margin-top: 0;
+    font-size: 60%;
+    margin-bottom: 0;
+  }
+  .cost-table {
+    margin: auto auto;
+    max-width: 90%;
+    font-size: 85%;
+    h2 {
+      margin: 0.3em auto;
+    }
+    p {
+      margin: 0.5em auto;
+      font-size: 0.7em;
+    }
+    th {
+      text-align: left;
+      text-transform: uppercase;
+      marin-top: 1em;
+    }
+    .col1, .col2, .col3, .col4 {
+      padding-right: 1em;
+    }
+  }
+}
+.cost-table-text {
+  max-width: 89%;
+  margin-bottom: 1em;
+  h2{
+    margin-left: 0.5em;
+    margin-bottom: 0;
+  }
+}
+
+#costs-permalink {
+  text-decoration: none;
+  color: black;
+}
+
+.footnotes {
+  font-size: 1em;
+  p {
+    font-size: 60%;
+  }
+  li {
+    margin: 1% 0;
+  }
+}
+.footer-last-updated {
+  margin: 1em 0;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color: #1F3E6884;
+  height: 2px;
+}
+
