@@ -38,7 +38,8 @@ title: "Homepage"
   visiting on desktop is suggested.</p>
 </div>
 <hr>
-<div class="resources-posts"><h2 class="shift-left-05em">Resources</h2>
+<div class="resources-posts">
+<h2>Resources</h2>
 {% for post in site.posts %}
 {% if post.resource %}
   <p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%Y %B %-d" }}</p>
