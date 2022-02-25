@@ -37,12 +37,11 @@ title: "Homepage"
   <p>To see costs database, please visit <a href="/report/costs">here</a>. This webpage may be difficult to read and
   visiting on desktop is suggested.</p>
 </div>
-
 <hr>
-
-
-
-<p class="footer-last-updated">Last updated: {{ site.time | date: "%Y %B %-d @ %-I:%M %P" }}</p>
-
-
-
+<div class="resources-posts"><h2 class="shift-left-05em">Resources</h2>
+{% for post in site.posts %}
+{% if post.resource %}
+  <p><a href="{{ post.url }}">{{ post.title }}</a>, {{ post.date | date: "%Y %B %-d" }}</p>
+{% endif %}
+{% endfor %}
+</div>

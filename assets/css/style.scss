@@ -20,16 +20,18 @@ body {
   .phoneContent {display:block;}
 }
 
-main {
+body {
   display: flex;
   max-width: 80rem;
   margin: 0 auto;
   padding: 2.4rem 2rem;
   flex-direction: column;
-  h1 {
-    font-size: 1.6em;
-    margin-bottom: 0.3em;
-    text-transform: uppercase;
+  main {
+    h1 {
+      font-size: 1.6em;
+      margin-bottom: 0.3em;
+      text-transform: uppercase;
+    }
   }
   p {
     margin-top: 0;
@@ -50,7 +52,7 @@ main {
     th {
       text-align: left;
       text-transform: uppercase;
-      marin-top: 1em;
+      margin-top: 1em;
     }
     .col1, .col2, .col3, .col4 {
       padding-right: 1em;
@@ -93,3 +95,33 @@ hr {
   height: 2px;
 }
 
+.posts-header {
+  h1 {
+    margin-bottom: 3px;
+  }
+  .homepage {
+    margin-left: 1em;
+  }
+}
+
+.clear {
+  clear: both;
+  visibility: hidden;
+  border: 0px solid transparent;
+  height: 0px;
+  background-color: none;
+}
+
+.href-no-color {
+  text-decoration: none;
+  color: black;
+}
+
+.resources-posts {
+  h2 {
+    margin: 0.2em 0.5em;
+  }
+  p {
+    font-size: 80%;
+  }
+}
